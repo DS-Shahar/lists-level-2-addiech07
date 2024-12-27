@@ -1,0 +1,126 @@
+package lists2;
+
+public class lists2 {
+
+	public static void main(String[] args) {
+		
+		public class upNewList {
+		    public static Node upNewList(Node head1, Node head2) {
+		        if (head1 == null) return head2;
+		        if (head2 == null) return head1;
+		        Node dummy = new Node(-1); 
+		        Node current = dummy;
+
+		        while (head1 != null && head2 != null) {
+		            if (head1.getValue() <= head2.getValue()) {
+		                current = head1;
+		                head1 = head1.getNext();
+		            } else {
+		                current = head2;
+		                head2 = head2.getNext();
+		            }
+		            current = current.getNext();
+		        }
+
+		        if (head1 != null) {
+		            current = head1;
+		        } else {
+		            current = head2;
+		        }
+
+		        return dummy.getNext(); 
+		    }
+
+		   
+		    public static void printList(Node head) {
+		        while (head != null) {
+		            System.out.print(head.data + " ");
+		            head = head.next;
+		        }
+		    }
+		    
+		    public static node ListNextMin(Node head1, Node head2) {
+		    	while d hasNext() {
+		    		Node<Integar>m;
+		    		int min = d.getNext().getValue();
+		    		while d.hasNext(){
+		    			if d.getNext().getValue()<min{
+		    				m=d;
+		    			}
+		    			d= d.getNext();
+		    	}
+		    		return selected(m.getvalue());
+		    		r= r.getNext();
+		    		d.setNext(d.getNext().getNext());
+		    		
+		    }
+		    	
+		   import java.util.ArrayList;
+		   import java.util.List;
+
+		   public class ListDistance {
+
+		    	  public static int calculateDistance(List<Integer> list, int value) {
+		    	        int firstIndex = -1;
+		    	        int lastIndex = -1;
+		    	        import java.util.HashSet;
+		    	        import java.util.List;
+		    	        import java.util.ArrayList;
+
+		    	        public class RemoveDuplicates {
+		    	            public static List<Integer> removeDuplicates(List<Integer> list) {
+		    	             
+		    	                HashSet<Integer> set = new HashSet<>(list);
+		    	                
+		    	         
+		    	                return new ArrayList<>(set);
+		    	            }
+
+		    	            public static void main(String[] args) {
+		    	                List<Integer> list =
+		    	                List<Integer> result = removeDuplicates(list);
+		    	               }
+		    	            import java.util.HashSet;
+		    	            import java.util.List;
+
+		    	            public static boolean UniqueElements(list) {
+		    	                public static boolean allUnique(List<Integer> list) {
+
+		    	                    HashSet<Integer> set = new HashSet<>();
+		    	                    
+		    	                    for (int num == list) {
+
+		    	                        if (num) {
+		    	                            return false;
+		    	                        }
+		    	                    }
+		    	                    
+
+		    	                    return true;
+		    	                }
+
+		    	                public static void main(String[] args) {
+		    	                    List<Integer> list =
+		    	                    boolean result = allUnique(list);
+
+		    	                }
+		    	            }
+
+		    public static void main(String[] args) {
+		        Node head1 = new Node(1);
+		        head1.next = new Node(3);
+		        head1.next.next = new Node(5);
+		        Node head2 = new Node(2);
+		        head2.next = new Node(3);
+		        head2.next.next = new Node(6);https://github.com/DS-Shahar/lists-level-2-addiech07/tree/main/src/main/java
+		        Node mergedHead = upNeaList(head1, head2);
+            Node List<Integer> list = new Node (3);
+		    	  boolean result = allUnique(list);
+
+
+		    }
+		}
+
+	}
+
+}
